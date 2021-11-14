@@ -311,6 +311,11 @@ ul {
   margin-top: 55px;
 }
 .works__wrap {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
 }
 .works__overlay {
@@ -341,6 +346,10 @@ ul {
 }
 .works__overlay:hover {
   opacity: 1;
+}
+.works__img {
+  max-width: 300px;
+  background-size: contain;
 }
 /*------ 4th section (My Works) end ------*/
 /*------ 5th section (Footer) ------*/
