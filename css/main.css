@@ -307,7 +307,9 @@ ul {
   padding: 32px 0 60px;
 }
 .works {
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 15px;
   margin-top: 55px;
 }
 .works__wrap {
@@ -320,12 +322,13 @@ ul {
 }
 .works__overlay {
   background: rgba(0,0,0,0.64);
+  border-radius: 15px;
   color: #fff;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 99%;
+  height: 100%;
   opacity: 0;
   transition: all 1s ease;
   flex-direction: column;
@@ -349,6 +352,7 @@ ul {
 }
 .works__img {
   max-width: 300px;
+  border-radius: 15px;
   background-size: contain;
 }
 /*------ 4th section (My Works) end ------*/
@@ -388,7 +392,6 @@ ul {
     flex-direction: column;
   }
   .works {
-    flex-wrap: wrap;
     justify-content: space-around;
   }
   .works__wrap:not(:last-child) {
